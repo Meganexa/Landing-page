@@ -3,6 +3,7 @@ body {
   flex-direction: column;
   padding: 0px;
   margin: 0px;
+  flex: auto;
 }
 
 .div1 {
@@ -48,6 +49,10 @@ ul {
   gap: 100px;
 }
 
+.intro img {
+  overflow: hidden;
+}
+
 .herotext {
   font-size: 48px;
   color: #f9faf8;
@@ -62,12 +67,6 @@ ul {
   display: flex;
   flex-flow: column;
   width: 500px;
-}
-
-.img {
-  height: 300px;
-  width: 520px;
-  display: flex;
 }
 
 .hero button {
@@ -130,4 +129,92 @@ ul {
   display: flex;
   width: 150px;
   margin: auto;
+}
+
+.div3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  width: 500px;
+  gap: 10px;
+  font-size: 25px;
+}
+
+.reviewer {
+  display: flex;
+  margin-left: auto;
+}
+
+.rev,
+.reviewer {
+  color: black;
+}
+
+.rev {
+  font-style: oblique;
+}
+
+.reviewer {
+  font-weight: bold;
+}
+
+.div4 {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+
+.blue {
+  background-color: royalblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+  width: 700px;
+  padding: 35px 25px;
+  border-radius: 25px;
+}
+
+.blue header {
+  font-size: 30px;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 600px;
+}
+
+.blue button {
+  border: 1px solid white;
+  border-radius: 23px;
+  width: 80px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+}
+
+.blue p {
+  color: white;
+  font-size: 15px;
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: midnightblue;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
 }
